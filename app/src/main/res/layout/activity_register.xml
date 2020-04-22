@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RegisterActivity">
+
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="337dp"
+        android:layout_height="101dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/soptlogo" />
+
+    <EditText
+        android:id="@+id/register_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="60dp"
+        android:background="@drawable/shape"
+        android:backgroundTint="#549D9A9A"
+        android:ems="10"
+        android:hint="   이메일"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/register_pw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="60dp"
+        android:background="@drawable/shape"
+        android:backgroundTint="#549D9A9A"
+        android:ems="10"
+        android:hint="   비밀번호"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="60dp"
+        android:background="@drawable/shape"
+        android:backgroundTint="#549D9A9A"
+        android:ems="10"
+        android:hint="   비밀번호 확인"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="60dp"
+        android:background="@drawable/shape"
+        android:backgroundTint="#549D9A9A"
+        android:ems="10"
+        android:hint="   GitHub 닉네임"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/register_finish_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="60dp"
+        android:background="@drawable/shape"
+        android:backgroundTint="#3F51B5"
+        android:text="가입완료 "
+        android:textColor="@android:color/background_light" />
+
+
+</LinearLayout>
